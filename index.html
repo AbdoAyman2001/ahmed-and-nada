@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahmed &amp; Nada — Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Amiri:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;padding:0;}
+  a{color:#8a6d3b;text-decoration:none;}
+  a:hover{color:#b08d57;}
+  @keyframes floatSeal{0%,100%{transform:translate(-50%,-50%) rotate(-2deg);}50%{transform:translate(-50%,-54%) rotate(2deg);}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(18px);}to{opacity:1;transform:translateY(0);}}
+  @keyframes pulseHint{0%,100%{opacity:.55;}50%{opacity:1;}}
+</style>
+</head>
+<body>
+<div style="min-height:100vh;background:radial-gradient(circle at 22% 8%,rgba(255,255,255,.75),transparent 42%),radial-gradient(circle at 82% 88%,rgba(206,190,160,.28),transparent 48%),radial-gradient(circle at 50% 50%,rgba(244,238,226,.6),transparent 70%),#efe8d9;font-family:'EB Garamond',serif;color:#2c2a26;display:flex;justify-content:center;">
+<div style="width:100%;max-width:430px;position:relative;overflow:hidden;">
+
+  <!-- COVER -->
+  <div id="cover" onclick="openInvite()" style="min-height:820px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 34px;cursor:pointer;text-align:center;">
+    <svg width="210" height="26" viewBox="0 0 220 24" style="margin-bottom:14px;"><g fill="none" stroke="#b08d57" stroke-width="1.2"><path d="M110 12 C 90 2, 70 22, 50 12 C 40 7, 30 17, 20 12"/><path d="M110 12 C 130 2, 150 22, 170 12 C 180 7, 190 17, 200 12"/></g><g fill="#b08d57"><circle cx="110" cy="12" r="3"/><circle cx="20" cy="12" r="1.8"/><circle cx="200" cy="12" r="1.8"/></g></svg>
+    <div style="font-family:'Cormorant Garamond',serif;font-size:26px;letter-spacing:.24em;text-transform:uppercase;color:#3a352c;font-weight:500;">Come Celebrate<br>With Us</div>
+    <svg width="210" height="26" viewBox="0 0 220 24" style="margin:14px 0 46px;transform:rotate(180deg);"><g fill="none" stroke="#b08d57" stroke-width="1.2"><path d="M110 12 C 90 2, 70 22, 50 12 C 40 7, 30 17, 20 12"/><path d="M110 12 C 130 2, 150 22, 170 12 C 180 7, 190 17, 200 12"/></g><g fill="#b08d57"><circle cx="110" cy="12" r="3"/><circle cx="20" cy="12" r="1.8"/><circle cx="200" cy="12" r="1.8"/></g></svg>
+
+    <div style="position:relative;width:270px;height:182px;filter:drop-shadow(0 20px 34px rgba(120,100,70,.28));">
+      <div style="position:absolute;inset:0;background:#eee5d2;border-radius:8px;"></div>
+      <div style="position:absolute;left:0;top:0;width:0;height:0;border-top:91px solid transparent;border-bottom:91px solid transparent;border-left:135px solid #e8dec8;"></div>
+      <div style="position:absolute;right:0;top:0;width:0;height:0;border-top:91px solid transparent;border-bottom:91px solid transparent;border-right:135px solid #e8dec8;"></div>
+      <div style="position:absolute;left:0;bottom:0;width:0;height:0;border-left:135px solid transparent;border-right:135px solid transparent;border-bottom:91px solid #efe6d3;"></div>
+      <div style="position:absolute;left:0;top:0;width:0;height:0;border-left:135px solid transparent;border-right:135px solid transparent;border-top:100px solid #f1e9d8;"></div>
+      <div style="position:absolute;left:50%;top:50%;width:58px;height:58px;border-radius:50%;background:radial-gradient(circle at 34% 28%,#464b57,#171b23 72%);box-shadow:0 4px 10px rgba(0,0,0,.35),inset 0 0 0 2px rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;color:#c8ae7d;font-family:'Great Vibes',cursive;font-size:24px;animation:floatSeal 4.5s ease-in-out infinite;">A&amp;N</div>
+    </div>
+
+    <div style="margin-top:46px;font-family:'Cormorant Garamond',serif;letter-spacing:.34em;text-transform:uppercase;font-size:15px;color:#5a5346;animation:pulseHint 2.4s ease-in-out infinite;">Tap to open&nbsp;&hellip;</div>
+  </div>
+
+  <!-- OPENED -->
+  <div id="opened" style="display:none;">
+  <div style="animation:fadeUp .6s ease both;">
+
+    <section style="padding:52px 34px 40px;text-align:center;">
+      <div style="font-family:'Cormorant Garamond',serif;letter-spacing:.32em;text-transform:uppercase;font-size:12px;color:#8a7f66;margin-bottom:8px;">Together with their families</div>
+      <div style="font-family:'Great Vibes',cursive;font-size:62px;line-height:.9;color:#2b2a26;margin:10px 0 4px;">Ahmed</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:26px;color:#b08d57;">&amp;</div>
+      <div style="font-family:'Great Vibes',cursive;font-size:62px;line-height:.9;color:#2b2a26;margin:4px 0 0;">Nada</div>
+
+      <svg width="200" height="26" viewBox="0 0 220 24" style="margin:26px 0 20px;"><g fill="none" stroke="#b08d57" stroke-width="1.2"><path d="M110 12 C 90 2, 70 22, 50 12 C 40 7, 30 17, 20 12"/><path d="M110 12 C 130 2, 150 22, 170 12 C 180 7, 190 17, 200 12"/></g><g fill="#b08d57"><circle cx="110" cy="12" r="3"/><circle cx="20" cy="12" r="1.8"/><circle cx="200" cy="12" r="1.8"/></g></svg>
+
+      <div style="font-family:'Cormorant Garamond',serif;font-size:15px;letter-spacing:.16em;color:#6a6250;">request the pleasure of your company<br>at the celebration of their wedding</div>
+
+      <div style="margin-top:26px;font-family:'Cormorant Garamond',serif;">
+        <div style="font-size:26px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#2b2a26;">Friday, 02 October</div>
+        <div style="font-size:20px;letter-spacing:.42em;color:#b08d57;margin:4px 0;">2026</div>
+        <div style="font-size:20px;letter-spacing:.14em;color:#3a352c;">at 9:00 in the evening</div>
+      </div>
+
+      <div style="margin-top:22px;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;color:#2b2a26;">Summer Moon</div>
+      <div style="font-family:'Cormorant Garamond',serif;letter-spacing:.2em;text-transform:uppercase;font-size:13px;color:#8a7f66;">Tanta&nbsp;&middot;&nbsp;Egypt</div>
+    </section>
+
+    <section style="padding:4px 40px 44px;text-align:center;">
+      <svg width="180" height="24" viewBox="0 0 220 24" style="margin-bottom:16px;"><g fill="none" stroke="#c2a878" stroke-width="1.2"><path d="M110 12 C 90 2, 70 22, 50 12 C 40 7, 30 17, 20 12"/><path d="M110 12 C 130 2, 150 22, 170 12 C 180 7, 190 17, 200 12"/></g><g fill="#c2a878"><circle cx="110" cy="12" r="3"/></g></svg>
+      <div style="font-family:'Amiri',serif;font-size:24px;line-height:1.9;color:#3a352c;direction:rtl;">لِتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:#8a7f66;margin-top:12px;">&ldquo;that you may find tranquility in them; and He placed between you affection and mercy.&rdquo;</div>
+    </section>
+
+    <section style="padding:14px 34px 46px;text-align:center;background:linear-gradient(180deg,rgba(255,255,255,0),rgba(232,222,200,.28),rgba(255,255,255,0));">
+      <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:30px;color:#2b2a26;margin-bottom:26px;">Counting Down to Our Day</div>
+      <div style="display:inline-block;position:relative;padding:20px 26px;background:#f7f2e6;border:2px solid #b08d57;border-radius:70px/52%;box-shadow:inset 0 0 0 4px #f7f2e6,inset 0 0 0 6px #cdb389,0 10px 24px rgba(120,100,70,.16);">
+        <div style="display:flex;gap:12px;align-items:flex-start;">
+          <div style="min-width:56px;"><div id="days" style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:40px;line-height:1;color:#2b2a26;">00</div><div style="font-family:'Cormorant Garamond',serif;letter-spacing:.14em;font-size:11px;color:#8a7f66;margin-top:6px;">DAYS</div></div>
+          <div style="font-size:34px;color:#c2a878;line-height:1.1;">:</div>
+          <div style="min-width:56px;"><div id="hours" style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:40px;line-height:1;color:#2b2a26;">00</div><div style="font-family:'Cormorant Garamond',serif;letter-spacing:.14em;font-size:11px;color:#8a7f66;margin-top:6px;">HOURS</div></div>
+          <div style="font-size:34px;color:#c2a878;line-height:1.1;">:</div>
+          <div style="min-width:56px;"><div id="mins" style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:40px;line-height:1;color:#2b2a26;">00</div><div style="font-family:'Cormorant Garamond',serif;letter-spacing:.14em;font-size:11px;color:#8a7f66;margin-top:6px;">MINS</div></div>
+          <div style="font-size:34px;color:#c2a878;line-height:1.1;">:</div>
+          <div style="min-width:56px;"><div id="secs" style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:40px;line-height:1;color:#2b2a26;">00</div><div style="font-family:'Cormorant Garamond',serif;letter-spacing:.14em;font-size:11px;color:#8a7f66;margin-top:6px;">SECS</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:8px 34px 46px;text-align:center;">
+      <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:30px;color:#2b2a26;margin-bottom:22px;">Getting There</div>
+      <div style="padding:8px;background:#fff;border:1px solid #d8c9a6;border-radius:6px;box-shadow:0 12px 26px rgba(120,100,70,.16);">
+        <iframe title="map" src="https://maps.google.com/maps?q=Summer%20Moon%20Tanta&z=15&output=embed" style="width:100%;height:230px;border:0;border-radius:3px;display:block;filter:saturate(.85);"></iframe>
+      </div>
+      <a href="https://maps.app.goo.gl/SAZLF916AxDuxZ6i8" target="_blank" rel="noopener" style="display:inline-block;margin-top:20px;padding:11px 30px;border:1.5px solid #b08d57;border-radius:40px;font-family:'Cormorant Garamond',serif;letter-spacing:.2em;text-transform:uppercase;font-size:13px;color:#8a6d3b;">Open in Maps</a>
+    </section>
+
+    <section style="padding:8px 34px 20px;text-align:center;">
+      <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:30px;color:#2b2a26;margin-bottom:6px;">Leave Us a Message</div>
+      <svg width="160" height="22" viewBox="0 0 220 24" style="margin-bottom:22px;"><g fill="none" stroke="#c2a878" stroke-width="1.2"><path d="M110 12 C 90 2, 70 22, 50 12 C 40 7, 30 17, 20 12"/><path d="M110 12 C 130 2, 150 22, 170 12 C 180 7, 190 17, 200 12"/></g><g fill="#c2a878"><circle cx="110" cy="12" r="3"/></g></svg>
+
+      <div style="padding:24px 22px;background:#faf6ec;border:1px double #c2a878;border-radius:6px;box-shadow:0 10px 22px rgba(120,100,70,.12);text-align:left;">
+        <div id="saved" style="display:none;">
+          <div style="text-align:center;padding:22px 4px;">
+            <div style="font-family:'Cormorant Garamond',serif;letter-spacing:.2em;text-transform:uppercase;font-size:15px;color:#8a6d3b;">Response Saved</div>
+            <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#6a6250;margin-top:8px;">Thank you for your kind words &#128153;</div>
+            <div onclick="resetForm()" style="margin-top:16px;font-family:'Cormorant Garamond',serif;letter-spacing:.18em;text-transform:uppercase;font-size:12px;color:#b08d57;cursor:pointer;text-decoration:underline;">Write another</div>
+          </div>
+        </div>
+        <div id="notSaved">
+          <label style="display:block;font-family:'Cormorant Garamond',serif;letter-spacing:.16em;text-transform:uppercase;font-size:11px;color:#8a7f66;margin-bottom:6px;">Your Name</label>
+          <input id="fName" placeholder="e.g. Ahmed" style="width:100%;box-sizing:border-box;padding:10px 12px;border:0;border-bottom:1px solid #cdb389;background:transparent;font-family:'EB Garamond',serif;font-size:16px;color:#2b2a26;outline:none;margin-bottom:18px;">
+          <label style="display:block;font-family:'Cormorant Garamond',serif;letter-spacing:.16em;text-transform:uppercase;font-size:11px;color:#8a7f66;margin-bottom:6px;">Write Your Congratulation</label>
+          <textarea id="fMsg" rows="3" placeholder="Congratulations &#127881;" style="width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #ddd0b0;border-radius:4px;background:#fff;font-family:'EB Garamond',serif;font-size:15px;color:#2b2a26;outline:none;resize:none;"></textarea>
+          <div onclick="saveMsg()" style="margin-top:18px;text-align:center;padding:12px;background:linear-gradient(180deg,#c2a878,#a98b56);border-radius:40px;font-family:'Cormorant Garamond',serif;letter-spacing:.24em;text-transform:uppercase;font-size:13px;color:#fff;cursor:pointer;box-shadow:0 6px 14px rgba(160,130,80,.3);">Send Wishes</div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:26px 34px 54px;text-align:center;">
+      <div onclick="closeInvite()" style="font-family:'Cormorant Garamond',serif;letter-spacing:.2em;text-transform:uppercase;font-size:12px;color:#8a7f66;cursor:pointer;text-decoration:underline;text-underline-offset:4px;">Click to go back</div>
+      <svg width="150" height="20" viewBox="0 0 220 24" style="margin:24px 0 10px;"><g fill="none" stroke="#c2a878" stroke-width="1"><path d="M110 12 C 90 2, 70 22, 50 12 C 40 7, 30 17, 20 12"/><path d="M110 12 C 130 2, 150 22, 170 12 C 180 7, 190 17, 200 12"/></g><g fill="#c2a878"><circle cx="110" cy="12" r="2.4"/></g></svg>
+      <div style="font-family:'Great Vibes',cursive;font-size:26px;color:#b08d57;">Ahmed &amp; Nada</div>
+    </section>
+
+  </div>
+  </div>
+
+</div>
+</div>
+
+<script>
+  var cover = document.getElementById('cover');
+  var opened = document.getElementById('opened');
+  function openInvite(){ cover.style.display='none'; opened.style.display='block'; window.scrollTo(0,0); }
+  function closeInvite(){ opened.style.display='none'; cover.style.display='flex'; window.scrollTo(0,0); }
+
+  // Countdown to Fri 02 Oct 2026, 21:00 (local time). Month is 0-indexed → 9 = October.
+  var target = new Date(2026, 9, 2, 21, 0, 0).getTime();
+  function pad(n){ return String(n).padStart(2,'0'); }
+  function tick(){
+    var diff = Math.max(0, target - Date.now());
+    var d = Math.floor(diff/86400000); diff -= d*86400000;
+    var h = Math.floor(diff/3600000);  diff -= h*3600000;
+    var m = Math.floor(diff/60000);    diff -= m*60000;
+    var s = Math.floor(diff/1000);
+    document.getElementById('days').textContent  = pad(d);
+    document.getElementById('hours').textContent = pad(h);
+    document.getElementById('mins').textContent  = pad(m);
+    document.getElementById('secs').textContent  = pad(s);
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  // Message form — client-side only (matches the original design: nothing is sent anywhere).
+  function saveMsg(){
+    var name = (document.getElementById('fName').value || '').trim();
+    var msg  = (document.getElementById('fMsg').value  || '').trim();
+    if(!name && !msg) return;
+    document.getElementById('notSaved').style.display = 'none';
+    document.getElementById('saved').style.display = 'block';
+  }
+  function resetForm(){
+    document.getElementById('fName').value = '';
+    document.getElementById('fMsg').value = '';
+    document.getElementById('saved').style.display = 'none';
+    document.getElementById('notSaved').style.display = 'block';
+  }
+</script>
+</body>
+</html>
